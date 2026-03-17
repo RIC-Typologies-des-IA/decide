@@ -43,6 +43,15 @@
 
 **Estimated Complexity:** Medium
 
+**Plans:** 5 plans in 5 waves
+
+Plans:
+- [ ] 01-01-PLAN.md — Database & Infrastructure (PostgreSQL + Prisma setup)
+- [ ] 01-02-PLAN.md — Auth Utilities (password, JWT, email)
+- [ ] 01-03-PLAN.md — Auth API Endpoints (register, login, logout, reset)
+- [ ] 01-04-PLAN.md — Auth Frontend UI (wizard, forms, minimalist design)
+- [ ] 01-05-PLAN.md — Tests (unit, integration, E2E)
+
 ---
 
 ## Phase 2: Espaces Décision
