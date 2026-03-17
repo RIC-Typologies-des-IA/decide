@@ -1,8 +1,8 @@
 # Project State: Decide
 
 **Last Updated:** 2025-03-17
-**Current Phase:** None (project initialized)
-**Overall Progress:** 0%
+**Current Phase:** 1 — Foundation (context gathered)
+**Overall Progress:** 5%
 
 ## Project Reference
 
@@ -15,7 +15,7 @@ See: .planning/PROJECT.md (updated 2025-03-17)
 
 | Phase | Status | Progress | Dependencies |
 |-------|--------|----------|--------------|
-| 1 — Foundation | ○ Pending | 0% | None |
+| 1 — Foundation | ○ Context Ready | 5% | None |
 | 2 — Espaces Décision | ○ Pending | 0% | Phase 1 |
 | 3 — Participation | ○ Pending | 0% | Phase 2 |
 | 4 — Discussion | ○ Pending | 0% | Phase 3 |
