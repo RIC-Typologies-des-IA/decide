@@ -1,8 +1,8 @@
 # Project State: Decide
 
 **Last Updated:** 2026-03-17
-**Current Phase:** 1 — Foundation (plan 01-03 complete)
-**Overall Progress:** 30%
+**Current Phase:** 1 — Foundation (plan 01-04 complete)
+**Overall Progress:** 40%
 
 ## Project Reference
 
@@ -15,7 +15,7 @@ See: .planning/PROJECT.md (updated 2025-03-17)
 
 | Phase | Status | Progress | Dependencies |
 |-------|--------|----------|--------------|
-| 1 — Foundation | ✓ Complete | 30% | None |
+| 1 — Foundation | ✓ Complete | 40% | None |
 | 2 — Espaces Décision | ○ Pending | 0% | Phase 1 |
 | 3 — Participation | ○ Pending | 0% | Phase 2 |
 | 4 — Discussion | ○ Pending | 0% | Phase 3 |
@@ -39,6 +39,8 @@ None
 - **2026-03-17**: Use Resend for email service (dev mode logs to console)
 - **2026-03-17**: Use Prisma 7 with @prisma/adapter-pg for PostgreSQL connection
 - **2026-03-17**: HTTP-only cookies for JWT storage (security requirement)
+- **2026-03-17**: 3-step registration wizard: email → password → profile (name optional)
+- **2026-03-17**: Validation on submit (not real-time), minimalist white design
 
 ## Context Notes
 
