@@ -12,9 +12,12 @@ const globalForPrisma = globalThis as unknown as {
 };
 
 // Create connection pool for PostgreSQL
+// Note: Using any type to avoid version conflict between @types/pg and adapter's bundled types
 const connectionString = process.env.DATABASE_URL || 'postgresql://postgres:password@localhost:5432/decide?schema=public';
-const pool = new Pool({ connectionString });
-const adapter = new PrismaPg(pool);
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const pool = new (require('pg').Pool)({ connectionString });
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const adapter = new PrismaPg(pool as any);
 
 export const prisma =
   globalForPrisma.prisma ??
