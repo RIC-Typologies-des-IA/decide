@@ -1,8 +1,8 @@
 # Project State: Decide
 
 **Last Updated:** 2026-03-17
-**Current Phase:** 1 — Foundation (plan 01-02 complete)
-**Overall Progress:** 20%
+**Current Phase:** 1 — Foundation (plan 01-03 complete)
+**Overall Progress:** 30%
 
 ## Project Reference
 
@@ -15,7 +15,7 @@ See: .planning/PROJECT.md (updated 2025-03-17)
 
 | Phase | Status | Progress | Dependencies |
 |-------|--------|----------|--------------|
-| 1 — Foundation | ◆ In Progress | 20% | None |
+| 1 — Foundation | ✓ Complete | 30% | None |
 | 2 — Espaces Décision | ○ Pending | 0% | Phase 1 |
 | 3 — Participation | ○ Pending | 0% | Phase 2 |
 | 4 — Discussion | ○ Pending | 0% | Phase 3 |
@@ -37,8 +37,8 @@ None
 - **2026-03-17**: Use jose instead of jsonwebtoken for Edge runtime compatibility in Next.js App Router
 - **2026-03-17**: Use bcryptjs for cross-platform password hashing compatibility
 - **2026-03-17**: Use Resend for email service (dev mode logs to console)
-
-None yet — log significant decisions here as the project progresses
+- **2026-03-17**: Use Prisma 7 with @prisma/adapter-pg for PostgreSQL connection
+- **2026-03-17**: HTTP-only cookies for JWT storage (security requirement)
 
 ## Context Notes
 
@@ -59,8 +59,8 @@ When planning/executing phases, remember:
 
 ## Next Actions
 
-1. Execute plan 01-03 (User API endpoints - register/login)
-2. Or run `/gsd-plan-phase 1` to create additional plans
+1. Move to Phase 2 - Espaces Décision
+2. Or run `/gsd-plan-phase 1` to create additional plans for Foundation phase
 
 ---
 
