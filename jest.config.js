@@ -15,7 +15,7 @@ module.exports = {
   coverageDirectory: 'coverage',
   verbose: true,
   transformIgnorePatterns: [
-    '/node_modules/(?!(jose)/)',
+    'node_modules/(?!(jose|@prisma/adapter-pg|pg)/)',
   ],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
 };

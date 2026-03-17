@@ -7,6 +7,11 @@ process.env.RESEND_API_KEY = 'test';
 process.env.NEXT_PUBLIC_APP_URL = 'http://localhost:3000';
 process.env.FROM_EMAIL = 'test@decide.app';
 
+// Reset modules between tests to avoid mock leakage
+beforeEach(() => {
+  jest.resetModules();
+});
+
 // Suppress console logs during tests unless explicitly needed
 global.console = {
   ...console,
