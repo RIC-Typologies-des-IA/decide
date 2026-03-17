@@ -1,8 +1,8 @@
 # Project State: Decide
 
-**Last Updated:** 2025-03-17
-**Current Phase:** 1 — Foundation (context gathered)
-**Overall Progress:** 5%
+**Last Updated:** 2026-03-17
+**Current Phase:** 1 — Foundation (plan 01-01 executing)
+**Overall Progress:** 10%
 
 ## Project Reference
 
@@ -15,7 +15,7 @@ See: .planning/PROJECT.md (updated 2025-03-17)
 
 | Phase | Status | Progress | Dependencies |
 |-------|--------|----------|--------------|
-| 1 — Foundation | ○ Context Ready | 5% | None |
+| 1 — Foundation | ◆ In Progress | 10% | None |
 | 2 — Espaces Décision | ○ Pending | 0% | Phase 1 |
 | 3 — Participation | ○ Pending | 0% | Phase 2 |
 | 4 — Discussion | ○ Pending | 0% | Phase 3 |
@@ -31,6 +31,9 @@ See: .planning/PROJECT.md (updated 2025-03-17)
 None
 
 ## Decisions Log
+
+- **2026-03-17**: Decided to use Prisma 7 with new `prisma.config.ts` approach (URL not in schema.prisma)
+- **2026-03-17**: Selected PostgreSQL 16 Alpine for Docker container with volume persistence
 
 None yet — log significant decisions here as the project progresses
 
